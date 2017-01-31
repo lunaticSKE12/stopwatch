@@ -20,6 +20,6 @@ public class testAppendToStringBuilder implements Runnable{
 
 	
 	public String toString(){
-		return String.format("Append %,d chars to StringBuilder\nfinal string length %,d", count, count); 
+		return String.format("Append %,d chars to StringBuilder\nfinal string length = %,d", count, count); 
 	}
 }
