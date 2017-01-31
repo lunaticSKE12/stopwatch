@@ -12,18 +12,20 @@ public class Stopwatch {
 	
 	private static final double NANOSECONDS = 1.0E-9;
 	
-	/*time that the stopwatch was started, in nanoseconds. */
+	/* time that the stopwatch was started, in nanoseconds. */
 	
 	private long startTime;
 	
-	/*time that the stopwatch was stopped, in nanoseconds. */
+	/* time that the stopwatch was stopped, in nanoseconds. */
 	
 	private long stopTime;
 	
-	/*boolean that the stopwatch was running or not. */
+	/* boolean that the stopwatch was running or not. */
 	private boolean running;
 	
-	/** Start the Stopwatch if it is not already running. */
+	/**
+	 *  Start the Stopwatch if it is not already running. 
+	*/
 	
 	public Stopwatch(){
 		this.running = false;
@@ -34,6 +36,7 @@ public class Stopwatch {
 	 * @return if stopwatch is running return elapsed time since start until the current time
 	 * if stopwatch is stopped return the time between start and stop times
 	 */
+	
 	public double getElapsed(){
 		
 		if(running){
