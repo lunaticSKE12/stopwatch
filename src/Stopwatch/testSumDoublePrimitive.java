@@ -38,14 +38,11 @@ public class testSumDoublePrimitive implements Runnable{
 	
 	@Override
 	public void run() {
-		
 		// count = loop counter, i = array index value
-		
 		for(int count=0, i=0; count<counter; count++, i++) {
 			if (i >= values.length) i = 0;  // reuse the array when get to last value
 			sum = sum + values[i];
 		}
-		
 	}
 	
 	/**
@@ -56,5 +53,4 @@ public class testSumDoublePrimitive implements Runnable{
 	public String toString(){
 		return String.format("Sum array of double primitives with count = %,d\nsum = %E",counter, sum);
 	}
-
 }

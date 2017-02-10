@@ -1,6 +1,5 @@
 package Stopwatch;
 
-
 /**
  * testing TaskTimer and tasks.
  * @author Napong Dungduangsasitorn

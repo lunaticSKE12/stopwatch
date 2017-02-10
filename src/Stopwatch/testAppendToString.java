@@ -45,6 +45,4 @@ public class testAppendToString implements Runnable{
 	public String toString(){
 		return String.format("Append %,d chars to String\nfinal string length = %,d", count, count);
 	}
-	
-
 }

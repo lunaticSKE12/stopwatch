@@ -78,8 +78,5 @@ public class Stopwatch {
 			this.stopTime = System.nanoTime();
 			this.running = false;
 		}
-		
-		
 	}
-
 }

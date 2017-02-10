@@ -45,7 +45,6 @@ public class testSumBigDecimal implements Runnable{
 			if (i >= values.length) i = 0;
 			sum = sum.add( values[i] );
 		}
-		
 	}
 	
 	/**
@@ -54,8 +53,6 @@ public class testSumBigDecimal implements Runnable{
 	 */
 	
 	public String toString(){
-		
 		return String.format("Sum array of BigDecimal with count = %,d\nsum = %E",counter,sum);
 	}
-
 }

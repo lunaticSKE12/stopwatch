@@ -30,10 +30,8 @@ public class TaskTimer {
 		timer.start();
 		runnable.run();
 		timer.stop();
-		
 		System.out.printf("%s \n", runnable.toString());
 		System.out.printf("Elapsed time : %.6f sec \n\n",timer.getElapsed());
-	
 	}
 	
 	/**
@@ -44,6 +42,4 @@ public class TaskTimer {
 	public static TaskTimer getTaskTimer(){
 		return new TaskTimer();
 	}
-	
-
 }
